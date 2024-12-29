@@ -1,0 +1,17 @@
+To Build this driver:
+    make
+
+To load/unload the kernel module
+    sudo insmod hello_world_module.ko
+    sudo rmmod hello_world_module.ko
+
+To check the list ok kernel modules
+    lsmod
+
+Get module details
+    modinfo hello_world_module.ko
+
+To check kernel logs
+    dmesg
+
+    

@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/simple_driver/hello_world.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Documents/simple_driver/hello_world.ko /home/pi/Documents/simple_driver/hello_world.o /home/pi/Documents/simple_driver/hello_world.mod.o;  true
